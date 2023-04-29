@@ -1,0 +1,22 @@
+[
+    {
+        "id":0,
+        "img": "https://th.bing.com/th/id/R.b0e7565c0f30fef351b63a528ede8875?rik=FndvREqAcsUhzw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flaptop-hd-png-laptop-notebook-png-image-1358.png&ehk=xGAMsXKrMflq7kfkG8ITBEJ768O5%2b25MIMjQ%2fKvdKxg%3d&risl=&pid=ImgRaw&r=0",
+        "titile":"Laptop"
+    },
+    {
+        "id":1,
+        "img": "https://purepng.com/public/uploads/large/purepng.com-android-smartphonepersonal-computersmartphonemobile-operating-systemcellular-phoneandroid-1701528391292tgdcp.png",
+        "titile":"Lenovo"
+    },
+    {
+        "id":2,
+        "img": "https://th.bing.com/th/id/R.a07734c98cc0e011eedf12806c400ed9?rik=H3QvbERavwIvbQ&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f6%2fDSLR-Camera-PNG-File.png&ehk=qG%2f74XpAyzy7WspOPKp%2fJBKVqyUCKRpiMotOM28PI1A%3d&risl=&pid=ImgRaw&r=0",
+        "titile":"Dslr"
+    },
+    {
+        "id":3,
+        "img": "https://www.androidpolice.com/wp-content/uploads/2020/06/05/TCL-Android-TV.png",
+        "titile":"Android TV"
+    }
+]

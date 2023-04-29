@@ -1,0 +1,32 @@
+
+*{
+  box-sizing: border-box;
+}
+/* variables */
+:root{
+  --color:#ffff;
+  --background-color: #000000c7;
+}
+
+body{
+  margin: 0 ;
+  padding: 0 ;
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  :root {
+    --color: #0014ae;
+    --background-color: #ff8000bb;
+  }
+}

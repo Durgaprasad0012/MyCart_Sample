@@ -1,0 +1,92 @@
+:root{
+    --trasition:all 0.2s ease-in-out;
+    --bg-circle:rgb(95, 199, 225);
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
+section .product-container{
+    max-width: 300px;
+    margin-top: 100px;
+    background-color: #27293d;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #fff;
+}
+
+.product-container::before{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-circle);
+    border-radius:50% ;
+    transition: all 0.4s ease-in-out;
+}
+
+.product-container.active::before,
+.product-container:hover::before{
+    width: 250px;
+    height: 250px;
+}
+
+.product-container.active::after,
+.product-container::after{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: -90px;
+    left: -90px;
+    background-color: var(--bg-circle);
+    border-radius: 50%;
+    transition: var(--trasition);
+}
+
+.product-container.active::after,
+.product-container:hover::after{
+    width: -35px;
+    height: -35px;
+}
+
+.product-container img{
+    width: 280px;
+    height: 210px;
+    margin: 40px 0;
+    object-fit: contain;
+    transform: translateY(15px);
+    transition: var(--trasition);
+    border-radius: 10px;
+}
+
+.product-container.active img,
+.product-container:hover img{
+transform: translateY(-20px) scale(0.9);
+border-radius: 0;
+}
+
+.product-container h3{
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 0;
+    transition: var(--trasition);
+
+}
+
+.product-container.active h3,
+.product-container:hover h3{
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 16px;
+    top: -25px;
+    font-size: 16px;
+}
